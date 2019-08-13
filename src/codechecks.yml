@@ -1,0 +1,7 @@
+checks:
+  - name: vis-reg-routes
+    options:
+      collectionName: app
+      buildPath: ./build
+      routes:
+        - /
