@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@codechecks/client": "^0.1.5",
+    "@codechecks/vis-reg-routes": "^0.0.2"
   }
 }

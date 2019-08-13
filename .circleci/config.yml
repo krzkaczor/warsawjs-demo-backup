@@ -44,9 +44,9 @@ jobs:
             yarn build
 
       - run:
-          name: Run tests
+          name: Run codechecks
           command: |
-            yarn test
+            yarn codechecks
 
 workflows:
   version: 2
