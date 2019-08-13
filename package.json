@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.15",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -27,5 +28,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@codechecks/build-size-watcher": "^0.1.0",
+    "@codechecks/client": "^0.1.5",
+    "@codechecks/lighthouse-keeper": "^0.0.2",
+    "@codechecks/vis-reg-routes": "^0.0.2"
   }
 }
