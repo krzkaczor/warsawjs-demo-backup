@@ -15,6 +15,15 @@ checks:
       gzip: false
       files:
         - path: "./build/static/js/*.js"
+        - path: "./build/static/css/*.css"
+        - path: "./build/static/media/*.svg"
+
+  - name: build-size-watcher
+    options:
+      name: GZIP
+      gzip: true
+      files:
+        - path: "./build/static/js/*.js"
           maxSize: 1MB
         - path: "./build/static/css/*.css"
         - path: "./build/static/media/*.svg"
