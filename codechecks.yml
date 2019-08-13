@@ -12,6 +12,7 @@ checks:
 
   - name: build-size-watcher
     options:
+      name: Size
       gzip: false
       files:
         - path: "./build/static/js/*.js"
@@ -20,7 +21,7 @@ checks:
 
   - name: build-size-watcher
     options:
-      name: GZIP
+      name: Size (GZIP)
       gzip: true
       files:
         - path: "./build/static/js/*.js"
