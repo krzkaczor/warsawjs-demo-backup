@@ -1,5 +1,4 @@
 import React from "react";
-import { upperCase } from "lodash";
 
 import "./App.css";
 import logo from "./logo.svg";
@@ -18,7 +17,7 @@ function App() {
 }
 
 function onClickHandler() {
-  alert(upperCase("warsaw js!"));
+  alert("warsaw js!".toUpperCase());
 }
 
 export default App;
