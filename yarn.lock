@@ -959,10 +959,10 @@
     ts-node "^8.0.2"
     url-join "^4.0.0"
 
-"@codechecks/lighthouse-keeper@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@codechecks/lighthouse-keeper/-/lighthouse-keeper-0.0.2.tgz#6cf4ac6b81ae62e4eea62db016a9a7857eb62b9f"
-  integrity sha512-v/XI7svN90oVxuYfttMDVbc2al7uiMZzY20JIjwLrjZV3Yfm2G8zbpaeX0pWSG63PCSmrOea5O+y9fLx550MQA==
+"@codechecks/lighthouse-keeper@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@codechecks/lighthouse-keeper/-/lighthouse-keeper-0.0.3.tgz#cb24c06a8c1c929520e6bd4bda687d2e62603104"
+  integrity sha512-5dO65NT17FREXdJQnGzgokB6uB6h18KqzkZ4koO8wPbtXW7GyjCLon8/3BKDWx+tUdFRPxQG8foDuRfURawJRQ==
   dependencies:
     http-server "^0.11.1"
     lighthouse-ci "^1.10.0"
