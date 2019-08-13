@@ -29,6 +29,7 @@
     ]
   },
   "devDependencies": {
+    "@codechecks/build-size-watcher": "^0.1.0",
     "@codechecks/client": "^0.1.5",
     "@codechecks/lighthouse-keeper": "^0.0.2",
     "@codechecks/vis-reg-routes": "^0.0.2"
