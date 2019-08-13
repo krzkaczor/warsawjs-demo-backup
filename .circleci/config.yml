@@ -41,7 +41,7 @@ jobs:
 
       - run:
           command: |
-            yarn build
+            NODE_ENV=production CI=false yarn build
 
       - run:
           name: Run codechecks
