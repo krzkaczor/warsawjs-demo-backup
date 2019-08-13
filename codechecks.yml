@@ -17,4 +17,4 @@ checks:
         - path: "./build/static/js/*.js"
           maxSize: 1MB
         - path: "./build/static/css/*.css"
-        - path: "./build/static/images/*.jpg"
+        - path: "./build/static/media/*.svg"
