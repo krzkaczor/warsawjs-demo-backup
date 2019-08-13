@@ -5,3 +5,7 @@ checks:
       buildPath: ./build
       routes:
         - /
+        
+  - name: lighthouse-keeper
+    options:
+      buildPath: ./build
